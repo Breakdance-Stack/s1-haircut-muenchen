@@ -1,0 +1,73 @@
+{
+  "business": {
+    "name": "S1 Haircut & Beauty Schaba",
+    "shortName": "S1 Haircut",
+    "type": "HairSalon",
+    "owner": "Schaba Mansur Muhanad",
+    "founded": null,
+    "description": "Professioneller Friseursalon und Barbershop in München-Haidhausen. Bekannt für erstklassige Bartpflege, Herrenschnitte, Damenfrisuren und Beauty-Treatments in familiärer Atmosphäre."
+  },
+  "contact": {
+    "phone": "+49894703153",
+    "phoneDisplay": "089 / 470 31 53",
+    "email": "schabamansurmuhanad@gmail.com",
+    "website": "https://breakdance-stack.github.io/s1-haircut-muenchen/"
+  },
+  "address": {
+    "street": "Einsteinstraße 105",
+    "postalCode": "81675",
+    "city": "München",
+    "district": "Haidhausen",
+    "state": "Bayern",
+    "country": "DE"
+  },
+  "openingHours": {
+    "monday": "09:00–20:00",
+    "tuesday": "09:00–20:00",
+    "wednesday": "09:00–20:00",
+    "thursday": "09:00–20:00",
+    "friday": "09:00–20:00",
+    "saturday": "09:00–18:00",
+    "sunday": "geschlossen"
+  },
+  "services": [
+    {
+      "name": "Herrenschnitt",
+      "description": "Klassische und moderne Herrenhaarschnitte, Fade, Undercut, Haartattoos",
+      "category": "Haar"
+    },
+    {
+      "name": "Damenschnitt & Coloration",
+      "description": "Schnitt, Föhnen, Strähnchen, Balayage, Ombré, Hochsteckfrisuren, Braut-Styling",
+      "category": "Haar"
+    },
+    {
+      "name": "Bartpflege & Rasur",
+      "description": "Bartmodellierung, Hot-Towel-Nassrasur, Bart-Designs, Konturenschnitt",
+      "category": "Bart"
+    },
+    {
+      "name": "Beauty & Pflege",
+      "description": "Gesichtsbehandlungen, Augenbrauen, Wimpern, Waxing, Sugaring, Make-up",
+      "category": "Beauty"
+    }
+  ],
+  "usps": [
+    "Erstklassige Bartpflege — bekannt in Haidhausen",
+    "Lange Öffnungszeiten: Mo–Fr bis 20 Uhr",
+    "Familiäre Atmosphäre mit Gratis-Getränken",
+    "Haartattoos und kreative Designs",
+    "Top-Lage: 5 Min. von S-Bahn Leuchtenbergring"
+  ],
+  "serviceArea": [
+    "München-Haidhausen",
+    "Bogenhausen",
+    "Au",
+    "Berg am Laim",
+    "Steinhausen"
+  ],
+  "publicTransport": {
+    "sBahn": "Leuchtenbergring (S1, S2, S3, S7, S8) — ca. 5 Min. Fußweg",
+    "tram": "Linien 19, 21 — Haltestelle Einsteinstraße"
+  }
+}

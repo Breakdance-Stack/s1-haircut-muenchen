@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://breakdance-stack.github.io/s1-haircut-muenchen/sitemap.xml
