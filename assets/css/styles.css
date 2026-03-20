@@ -38,6 +38,7 @@
   --gold: #c8a55a;
   --gold-light: #e0c882;
   --gold-dark: #a08338;
+  --gold-text: #7a6528;  /* WCAG AA contrast on light backgrounds */
   --dark: #0f0f17;
   --dark2: #171721;
   --dark3: #1e1e2c;
@@ -293,16 +294,18 @@ nav { display: flex; align-items: center; gap: 8px; }
 section { padding: 96px 0; }
 .section-dark { background: var(--dark); color: var(--text-inv); }
 .section-dark .muted { color: var(--muted-inv); }
+.section-dark .section-label { color: var(--gold); }
+.section-dark .section-label::before { background: var(--gold); }
 .section-alt { background: var(--surface2); }
 
 .section-label {
   display: inline-flex; align-items: center; gap: 8px;
   font-size: .78rem; font-weight: 600;
   letter-spacing: .08em; text-transform: uppercase;
-  color: var(--gold); margin-bottom: 14px;
+  color: var(--gold-text); margin-bottom: 14px;
 }
 .section-label::before {
-  content: ''; width: 24px; height: 1.5px; background: var(--gold);
+  content: ''; width: 24px; height: 1.5px; background: var(--gold-text);
 }
 .section-title {
   font-family: var(--serif);
@@ -376,11 +379,11 @@ a.service-card, .service-card {
 }
 .service-card-link {
   display: inline-flex; align-items: center; gap: 6px;
-  color: var(--gold-dark); font-weight: 600; font-size: .88rem;
+  color: var(--gold-text); font-weight: 600; font-size: .88rem;
   text-decoration: none;
   transition: gap .2s, color .2s;
 }
-.service-card-link:hover { gap: 10px; color: var(--gold); }
+.service-card-link:hover { gap: 10px; color: var(--gold-dark); }
 .service-card-link svg { width: 16px; height: 16px; }
 
 /* ============================================================
